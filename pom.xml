@@ -59,9 +59,9 @@
     <resources>
       <resource>
         <directory>resources</directory>
-        <excludes>
+        <!-- <excludes>
           <exclude>**/*.java</exclude>
-        </excludes>
+        </excludes>  -->
       </resource>
     </resources>
     <plugins>
