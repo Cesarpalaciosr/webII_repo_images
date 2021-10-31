@@ -40,7 +40,8 @@
 		<scope>provided</scope>
 	</dependency>  
 	<!-- https://x-stream.github.io -->
-	  		<dependency>
+	  	<!-- 
+	  	 	<dependency>
                 <groupId>com.thoughtworks.xstream</groupId>
                 <artifactId>xstream</artifactId>
                 <version>1.4.15</version>
@@ -55,6 +56,7 @@
                   </exclusion>
                 </exclusions>
             </dependency>
+	  	 -->
    </dependencies>
   <build>
    <sourceDirectory>src</sourceDirectory>
