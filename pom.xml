@@ -57,13 +57,13 @@
             </dependency>
    </dependencies>
   <build>
-   <sourceDirectory>src/main/webapp</sourceDirectory>
+   <sourceDirectory>src</sourceDirectory>
     <resources>
       <resource>
         <directory>resources</directory>
-        <!-- <excludes>
+        <excludes>
           <exclude>**/*.java</exclude>
-        </excludes>  -->
+        </excludes> 
       </resource>
     </resources>
     <plugins>
@@ -121,17 +121,6 @@
 	        <artifactId>heroku-maven-plugin</artifactId>
 	        <version>3.0.3</version>
 	      </plugin>
-	       <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.1</version>
-        <configuration>
-          <release>15</release>
-        </configuration>
-      </plugin>
-      <plugin>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>3.2.3</version>
-      </plugin>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
