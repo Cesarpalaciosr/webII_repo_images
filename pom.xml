@@ -71,7 +71,7 @@
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
             <configuration>
-         		<warSourceDirectory>Webapp</warSourceDirectory>
+         		<warSourceDirectory>webapp</warSourceDirectory>
  			</configuration>
             <version>3.2.2</version>
           <!--  <configuration>
