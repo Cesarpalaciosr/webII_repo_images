@@ -62,7 +62,7 @@
    <sourceDirectory>src</sourceDirectory>
     <resources>
       <resource>
-        <directory>main/resources</directory>
+        <directory>resources</directory>
        <!--  <excludes>
           <exclude>**/*.java</exclude>
         </excludes> --> 
