@@ -74,7 +74,7 @@
             <artifactId>maven-war-plugin</artifactId>
             <configuration>
          		<warSourceDirectory>resources</warSourceDirectory>
-    <webXml>src\main\resources\WEB-INF\web.xml</webXml>        
+    			<webXml>src/main/resources/WEB-INF/web.xml</webXml>        
  			</configuration>
             <version>3.2.2</version>
   
